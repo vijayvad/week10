@@ -1,0 +1,10 @@
+serviceMonitor:
+  enabled: true
+  additionalLabels:
+    release: kube-prometheus-stack-1680400770
+mysql:
+  db: "mysql"
+  host: "mysql"
+  pass: "password"
+  port: 3306
+  user: "root"
